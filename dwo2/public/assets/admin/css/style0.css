@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*/////////////////////////////
+ common - ページャー 設定
+/////////////////////////////*/
+.pager {
+    width: 100%;
+}
+.pagerList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagerList ul {
+/*    padding-left:0;*/
+    padding: 0px;
+}
+.pagerList li {
+    padding: 0px 5px;
+    list-style:none;
+}
+.pagerList li a {
+    display: inline-block;
+    padding: 0px 5px;
+}
+.pagerList li a:hover {
+    background-color: #707070;
+    color: #fff;
+}
+
+
+/*/////////////////////////////
+ 

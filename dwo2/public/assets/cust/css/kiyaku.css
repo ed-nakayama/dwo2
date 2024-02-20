@@ -1,0 +1,80 @@
+div#summary {
+    font-size: 10.5pt;
+    align : left;
+}
+p.KMainTitle {
+    margin: 5 0 5;
+    font-size: 14.0pt;
+    font-weight: bold;
+    color: #0000FF;
+    text-align: left;
+}
+p.KMainArticle {
+    margin: 5 0 5;
+    font-size: 11.0pt;
+    color: #333399;
+    text-align: left;
+}
+p.KSubTitle  {
+    margin-top: 20pt;
+    margin-left: 0;
+    margin-bottom: 0;
+    font-size: 11.0pt;
+    font-weight: bold;
+    color: #333399;
+    text-align: left;
+}
+p.KChapter {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 5;
+    font-size: 11.0pt;
+    font-weight: bold;
+    color: #333399;
+    text-align: left;
+}
+p.KContent {
+    margin: 0 0 0;
+    margin-left:36.0pt;
+    font-size: 11.0pt;
+    color: #333399;
+    text-align: left;
+}
+p.KContent.a {
+    color: purple;
+}
+p.KContent.a#Plink {
+    color: blue;
+    text-decoration: underline;
+}
+
+ol.KItem {
+    margin-top:0;
+    margin-left:24.0pt;
+    margin-bottom:0;
+    font-size: 11.0pt;
+    color: #333399;
+    text-align: left;
+    counter-reset: cnt;
+}
+ol.KItem li {
+    list-style-type: none;
+    list-style-position: inside;
+    counter-increment: cnt;
+    font-size: 11.0pt;
+    color: #333399;
+    text-align:left;
+    text-indent: -1.3em;
+}
+ol.KItem li:before {
+    display: marker;
+    content: "(" counter(cnt) ")";
+}
+p.KEndContent {
+    margin-top: 20pt;
+    margin-left: 0;
+    margin-bottom: 0;
+    font-size: 11.0pt;
+    color: #333399;
+    text-align: right;
+}
